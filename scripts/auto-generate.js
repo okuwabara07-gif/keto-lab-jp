@@ -7,9 +7,9 @@ const AMAZON_TRACKING_ID = process.env.AMAZON_TRACKING_ID || 'haircolorab22-22';
 const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '5253b9ed.08f9d938.5253b9ee.e71aefe8';
 const MOSHIMO_ID = '1184522';
 
-const SITE_NAME = 'keto lab';
-const TOPIC = 'ヘアカラー・白髪染め・セルフカラー';
-const CRITERIA = '染まりやすさ・色持ち・ダメージ・コスパ・使いやすさ';
+const SITE_NAME = 'ケトLAB';
+const TOPIC = 'ケトジェニック・低糖質ダイエット・糖質制限';
+const CRITERIA = '効果・続けやすさ・安全性・コスパ・口コミ';
 
 function moshimoAmazonLink(keyword) {
   const searchUrl = encodeURIComponent(`https://www.amazon.co.jp/s?k=${encodeURIComponent(keyword)}&tag=${AMAZON_TRACKING_ID}`);
